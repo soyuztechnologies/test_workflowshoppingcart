@@ -162,7 +162,7 @@
 		},
 		"626803d8-9bc3-4405-b7a6-927ef66da230": {
 			"classDefinition": "com.sap.bpm.wfs.UserTask",
-			"subject": "Approve Shopping cart for ${info.startedBy} for ${context.response.d.Name}",
+			"subject": "[A] Approve Shopping cart for ${info.startedBy} for ${context.response.d.Name}",
 			"description": "Approve Shopping cart for ${info.startedBy} for ${context.response.d.Name}",
 			"priority": "MEDIUM",
 			"isHiddenInLogForParticipant": false,
