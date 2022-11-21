@@ -1,0 +1,28 @@
+{
+  "productDetails": [
+    {
+      "id":"HT-2025",
+      "response": "",
+      "autoApprove": false,
+      "decision": ""
+    },
+    {
+      "id":"HT-2001",
+      "response": "",
+      "autoApprove": false,
+      "decision": ""
+    },
+    {
+      "id":"HT-1010",
+      "response": "",
+      "autoApprove": false,
+      "decision": ""
+    },
+    {
+      "id":"HT-2021",
+      "response": "",
+      "autoApprove": false,
+      "decision": ""
+    }
+  ]
+}

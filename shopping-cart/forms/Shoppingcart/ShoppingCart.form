@@ -1,0 +1,82 @@
+{
+    "id": "shoppingcart",
+    "schemaVersion": "1.1.0",
+    "name": "ShoppingCart",
+    "revision": "1.0.0",
+    "type": "task",
+    "readOnly": false,
+    "content": [
+        {
+            "id": "name",
+            "type": "string",
+            "label": "Name",
+            "readOnly": true,
+            "value": "${context.response.d.Name}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "price",
+            "type": "string",
+            "label": "Price",
+            "readOnly": true,
+            "value": "${context.response.d.Price}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "description",
+            "type": "string",
+            "label": "Description",
+            "readOnly": true,
+            "value": "${context.response.d.Description}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "id",
+            "type": "string",
+            "label": "Id",
+            "readOnly": true,
+            "value": "${context.response.d.Id}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "supplier",
+            "type": "string",
+            "label": "Supplier",
+            "readOnly": true,
+            "value": "${context.response.d.SupplierName}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "unit",
+            "type": "string",
+            "label": "Unit",
+            "readOnly": true,
+            "value": "${context.response.d.QuantityUnit}",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "decisions": [
+        {
+            "id": "approve",
+            "text": "Approve",
+            "decisionType": "positive"
+        },
+        {
+            "id": "reject",
+            "text": "Reject",
+            "decisionType": "negative"
+        }
+    ]
+}
